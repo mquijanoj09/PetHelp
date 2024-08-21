@@ -1,0 +1,68 @@
+/* Paleta de colores */
+$ColorPrimary: #394AFF;
+$ColorSecundary: #62A87C;
+$ColorOnSurface: #1D1E18;
+$ColorSurface: #FFFFFF;
+
+
+/* Tipografía y tamaño de letra*/
+
+h1 h2 h3 p h5 {
+  font-family: "Roboto", serif;
+  color: $ColorOnSurface;
+}
+
+/* Headline */
+h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 32px;
+}
+
+/* Title */
+h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* Subtitle */
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Body */
+p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Tag */
+h5 {
+  margin: 0;
+  font-size: 10px;
+}
+
+/* Sombras */
+
+@mixin box-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $color: default) {
+  box-shadow: $x-axis $y-axis $blur $color;
+}
+
+.Elevation1 {
+  /* offset-x | offset-y | blur-radius | color */
+  @include box-shadow(0, 4px, 4px, rgba(0, 0, 0, 0.5));
+}
+
+.Elevation2 {
+  /* offset-x | offset-y | blur-radius | color */
+  @include box-shadow(0, 4px, 4px, rgba(0, 0, 0, 0.25));
+}
+
+/* Reglas generales de estilo */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 1220px;
+}
