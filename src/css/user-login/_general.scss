@@ -1,0 +1,84 @@
+@import "../style";
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#formulario {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  .img-perro {
+    width: 114px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    img {
+      width: 28px;
+      fill: $ColorOnSurface;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    input {
+      width: 290px;
+    }
+  }
+
+
+}
+
+footer {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  button {
+    width: 290px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $ColorSecundary;
+  }
+}
+
+#gradiente {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+#huellas-caninas {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
