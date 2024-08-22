@@ -1,0 +1,12 @@
+@import "../style";
+
+.boton-c-primary {
+  background: $ColorPrimary;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: $ColorSurface;
+  font-family: $font-family;
+  font-size: 14px;
+}
+
