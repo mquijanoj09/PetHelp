@@ -5,19 +5,31 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>User login</title>
-    <link rel="stylesheet" href="css/user-login/user-login.scss">
-    <script src="js/user-login.js"></script>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="css/user-registration/user-registration.scss">
+    <script src="js/user-registration.js"></script>
 </head>
 <body>
+<header>
+    <div class="boton-c-primary">
+        <img src="img/Icons/FlechaAtras.svg" alt="">
+        <a href="user-login.html">
+            <h3>Volver</h3>
+        </a>
+    </div>
+</header>
+
 <section id="formulario">
-    <img class="img-perro" src="img/UserLogin/Perro.svg" alt="perro">
     <div>
         <img src="img/Logo-ColorOnSurface.svg" alt="logo">
         <h1>PetHelp</h1>
     </div>
-    <h3>Iniciar sesión con tu cuenta</h3>
+    <h3>¡Bienvenido! Regístrate para <br> cuidar mejor de tu mascota</h3>
     <form>
+        <label class="input-registro-correo">
+            Nombre
+            <input class="Elevation2" type="email" name="" id="name">
+        </label>
         <label class="input-registro-correo">
             Correo
             <input class="Elevation2" type="email" name="" id="email">
@@ -30,8 +42,7 @@
 </section>
 
 <footer>
-    <button class="boton-c-primary" type="submit">Iniciar</button>
-    <p>¿No tienes una cuenta? <a href="./user-registration.html">Registrarme</a></p>
+    <button class="boton-c-primary" type="submit">Registrarme</button>
 </footer>
 
 <section id="gradiente">
@@ -39,8 +50,7 @@
 </section>
 
 <section id="huellas-caninas">
-    <img src="img/UserLogin/Huellas.svg" alt="huellas">
+    <img src="img/UserRegistration/Huellas.svg" alt="huellas">
 </section>
-
 </body>
 </html>
