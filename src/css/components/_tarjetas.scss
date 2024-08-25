@@ -1,0 +1,64 @@
+@import "../style";
+
+.tarjeta-tipo-mascota {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-radius: 15px;
+  gap: 10px;
+  background: $ColorPrimary;
+
+  img {
+    width: 101px;
+  }
+
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .textos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+
+    h2 {
+      color: $ColorSurface;
+    }
+  }
+
+  .box-boton {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+}
+
+.tarjeta-consejo-c-primary, .tarjeta-consejo-c-secondary, .tarjeta-consejo-c-onsurface {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+  gap: 10px;
+  border-radius: 15px;
+
+  h3, p {
+    color: $ColorSurface;
+  }
+}
+
+.tarjeta-consejo-c-primary {
+  background: $ColorPrimary;
+}
+
+.tarjeta-consejo-c-secondary {
+  background: $ColorSecundary;
+}
+
+.tarjeta-consejo-c-onsurface {
+  background: $ColorOnSurface;
+}

@@ -1,1 +1,42 @@
 @import "../style";
+@import "../components/buttons";
+@import "saludo";
+@import "guia-primeros-auxilios";
+@import "../components/tarjetas";
+@import "consejos-cuidado";
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 15px 0 15px;
+  padding: 10px;
+
+  img {
+    width: 20px;
+  }
+}
+
+.divisor {
+  margin: 0 15px;
+  position: relative;
+  height: 2px;
+  background: $ColorOnSurface;
+}
+
+#gradiente {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+
+  img {
+    width: 100%;
+  }
+}
