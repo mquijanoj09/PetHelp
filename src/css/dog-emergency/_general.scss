@@ -1,0 +1,44 @@
+@import "../style";
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  padding: 20px;
+}
+
+#gradiente {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  img {
+    width: 100%;
+  }
+}
+
+.tarjetas-sintomas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid $ColorOnSurface;
+}
+
+.personas-tarjetas {
+  background-color: $ColorTerceary;
+  color: $ColorSurface;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-family: $font-family;
+  font-size: 14px;
+}
