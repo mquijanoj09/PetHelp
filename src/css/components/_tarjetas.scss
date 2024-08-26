@@ -36,17 +36,19 @@
     display: flex;
     justify-content: flex-end;
   }
-
 }
 
-.tarjeta-consejo-c-primary, .tarjeta-consejo-c-secondary, .tarjeta-consejo-c-onsurface {
+.tarjeta-consejo-c-primary,
+.tarjeta-consejo-c-secondary,
+.tarjeta-consejo-c-onsurface {
   display: flex;
   flex-direction: column;
   padding: 15px 10px;
   gap: 10px;
   border-radius: 15px;
 
-  h3, p {
+  h3,
+  p {
     color: $ColorSurface;
   }
 
@@ -57,7 +59,7 @@
     padding: 0 5px;
   }
 
-  .imagen-tipo-consejo{
+  .imagen-tipo-consejo {
     width: 20px;
   }
 }
@@ -72,4 +74,26 @@
 
 .tarjeta-consejo-c-onsurface {
   background: $ColorOnSurface;
+}
+
+.tarjeta-tipo-emergencia {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  gap: 10px;
+  background: $ColorPrimary;
+
+  h2,
+  p {
+    color: $ColorSurface;
+  }
+
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+    width: 100%;
+  }
 }

@@ -9,32 +9,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Dog emergency</title>
     <link rel="stylesheet" href="css/dog-emergency/dog-emergency.scss" />
-    <script src="js/dog-emergency.js"></script>
   </head>
   <body>
-    <a href="home.html">
-      <img src="img/Icons/FlechaAtras.svg" alt="Botón volver" />
+    <a href="home.html" class="boton-regresar">
+      <img src="img/Icons/FlechaAtrasNegro.svg" alt="Botón volver" />
     </a>
-    <section id="gradiente">
-      <img src="img/Home/Gradiente.svg" alt="gradiente" />
-    </section>
-    <section id="header">
+    <img src="img/Home/Gradiente.svg" id="gradiente" alt="gradiente" />
+    <section class="header">
       <h1>Emergencias caninas</h1>
       <p>
         ¿Qué le está ocurriendo a tu mascota? Selecciona la emergencia para
         recibir ayuda inmediata
       </p>
     </section>
-    <section id="tarjetas-sintomas">
-      <div class="tarjeta-tipo-mascota">
-        <h2>Intoxicaciones</h2>
-        <p>
-          Cuando un perro ingiere sustancias tóxicas (como plantas, alimentos o
-          productos químicos)
-        </p>
-        <div class="personas-tarjetas">Veterinario</div>
-        <button class="boton-sintomas">Indicaciones</button>
-      </div>
-    </section>
+    <section id="tarjetas-sintomas"></section>
+    <script src="js/dog-emergency.js"></script>
   </body>
 </html>
