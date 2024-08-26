@@ -10,7 +10,17 @@
   font-size: 14px;
 }
 
-.boton-c-emergencia{
+.boton-c-on-surface {
+  background: $ColorOnSurface;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: $ColorSurface;
+  font-family: $font-family;
+  font-size: 14px;
+}
+
+.boton-c-emergencia {
   background: #FF393C;
   padding: 5px 20px;
   border-radius: 20px;
@@ -20,7 +30,7 @@
   font-size: 14px;
 }
 
-.tag{
+.tag {
   padding: 3px 10px;
   border-radius: 5px;
   border: solid 1px $ColorSurface;

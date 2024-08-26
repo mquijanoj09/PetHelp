@@ -5,9 +5,56 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>User</title>
+    <link rel="stylesheet" href="css/user/user.scss">
+    <script src="js/user.js"></script>
 </head>
 <body>
+<header>
+    <img src="img/Icons/FlechaAtrasNegro.svg" alt="atras">
+</header>
 
+<section id="user">
+    <img src="img/User/Usuario.png" alt="User">
+    <div>
+        <h2>Usuario</h2>
+        <h3>Correo@gmail.com</h3>
+    </div>
+</section>
+
+<button class="boton-c-primary boton">Cambiar imagen</button>
+
+<form action="">
+    <label class="input-registro-correo">
+        Nombres
+        <input type="text" name="first-name" id="nombres">
+    </label>
+    <label class="input-registro-correo">
+        Apellidos
+        <input type="text" name="first-name" id="apellidos">
+    </label>
+    <div class="opciones-mascota">
+        <h3>Tipos de mascotas</h3>
+        <label>
+            <input type="checkbox" name="" id="perros">
+            Perros
+        </label>
+        <label>
+            <input type="checkbox" name="" id="gatos">
+            Gatos
+        </label>
+        <label>
+            <input type="checkbox" name="" id="roedores">
+            Roedores
+        </label>
+    </div>
+    <button class="boton-c-primary" type="submit">Guardar cambios</button>
+</form>
+
+<button class="boton-c-on-surface boton" type="submit">Cerrar sesión</button>
+
+<section id="gradiente">
+    <img src="img/Home/Gradiente.svg" alt="gradiente">
+</section>
 </body>
 </html>
