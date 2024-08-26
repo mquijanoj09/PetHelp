@@ -1,17 +1,21 @@
 /* Paleta de colores */
-$ColorPrimary: #394AFF;
-$ColorSecundary: #62A87C;
-$ColorOnSurface: #1D1E18;
-$ColorSurface: #FFFFFF;
-
+$ColorPrimary: #394aff;
+$ColorSecundary: #62a87c;
+$ColorOnSurface: #1d1e18;
+$ColorSurface: #ffffff;
+$ColorTerceary: #98a1ff;
 
 /* Tipografía y tamaño de letra*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-$font-family: 'Roboto', sans-serif;
+$font-family: "Roboto", sans-serif;
 
-h1, h2, h3, p, h5 {
+h1,
+h2,
+h3,
+p,
+h5 {
   font-family: $font-family;
   color: $ColorOnSurface;
 }

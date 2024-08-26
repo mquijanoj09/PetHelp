@@ -37,3 +37,13 @@
   color: $ColorSurface;
   font-family: $font-family;
 }
+
+.boton-sintomas {
+  background: $ColorSurface;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  color: $ColorOnSurface;
+  font-family: $font-family;
+  font-size: 14px;
+}
