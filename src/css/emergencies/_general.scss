@@ -31,8 +31,15 @@ section {
 }
 
 .boton-regresar {
-  width: fit-content;
-  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 15px 0 15px;
+  padding: 10px;
+
+  img {
+    width: 20px;
+    fill: $ColorOnSurface;
+  }
 }
 
 .header {
