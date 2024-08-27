@@ -16,6 +16,24 @@ const data = {
           "Lesiones causadas por golpes, caídas o accidentes, que pueden resultar en fracturas, heridas o daño interno.",
         personas: ["Veterinario", "Usuario"],
       },
+      {
+        titulo: "Convulsiones",
+        descripcion:
+          "Movimientos involuntarios y descontrolados, que pueden ser causados por epilepsia, intoxicaciones o enfermedades.",
+        personas: ["Veterinario"],
+      },
+      {
+        titulo: "Golpe de calor",
+        descripcion:
+          "Aumento de la temperatura corporal que puede causar daño cerebral o incluso la muerte.",
+        personas: ["Veterinario", "Usuario"],
+      },
+      {
+        titulo: "Heridas",
+        descripcion:
+          "Lesiones en la piel causadas por cortes, mordeduras o quemaduras.",
+        personas: ["Veterinario", "Usuario"],
+      },
     ],
   },
   Gatos: {
@@ -35,6 +53,24 @@ const data = {
           "Caídas desde alturas que pueden causar fracturas o lesiones internas.",
         personas: ["Veterinario", "Usuario"],
       },
+      {
+        titulo: "Convulsiones",
+        descripcion:
+          "Movimientos involuntarios y descontrolados, que pueden ser causados por epilepsia, intoxicaciones o enfermedades.",
+        personas: ["Veterinario"],
+      },
+      {
+        titulo: "Heridas",
+        descripcion:
+          "Lesiones en la piel causadas por cortes, mordeduras o quemaduras.",
+        personas: ["Veterinario", "Usuario"],
+      },
+      {
+        titulo: "Problemas respiratorios",
+        descripcion:
+          "Dificultad para respirar, que puede ser causada por enfermedades respiratorias o alergias.",
+        personas: ["Veterinario"],
+      },
     ],
   },
   Roedores: {
@@ -52,6 +88,24 @@ const data = {
         titulo: "Fracturas",
         descripcion: "Lesiones causadas por caídas o golpes.",
         personas: ["Veterinario", "Usuario"],
+      },
+      {
+        titulo: "Convulsiones",
+        descripcion:
+          "Movimientos involuntarios y descontrolados, que pueden ser causados por epilepsia, intoxicaciones o enfermedades.",
+        personas: ["Veterinario"],
+      },
+      {
+        titulo: "Heridas",
+        descripcion:
+          "Lesiones en la piel causadas por cortes, mordeduras o quemaduras.",
+        personas: ["Veterinario", "Usuario"],
+      },
+      {
+        titulo: "Problemas respiratorios",
+        descripcion:
+          "Dificultad para respirar, que puede ser causada por enfermedades respiratorias o alergias.",
+        personas: ["Veterinario"],
       },
     ],
   },
