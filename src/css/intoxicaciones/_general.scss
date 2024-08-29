@@ -1,57 +1,72 @@
 @import "../style";
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    position: relative;
-    padding: 20px;
+    background: linear-gradient(45deg, #FFFFFF75 46%, #ff6a0075 46%, #FFBB9775 46%);
+    /* 414px x 896px */
 }
 
-section {
-    margin: 0 20px;
+/* Headline */
+h1 {
+    font-weight: bold;
+    margin: 3% 0;
+    font-size: 32px;
 }
 
-#gradiente {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+/* Title */
+h2 {
+    margin: 3% 0;
+    font-size: 22px;
+    font-weight: normal;
+}
 
-    img {
-        width: 100%;
-    }
+/* Subtitle */
+h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Body */
+p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    width: 370px;
+}
+
+
+#tarjetas-sintomas h1 {
+    color: white;
+}
+
+#tarjetas-sintomas h3 {
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#tarjetas-sintomas p {
+    color: white;
+    margin-bottom: 2%;
+}
+
+#tarjetas-sintomas img {
+    width: 30%;
+    height: 30%;
+    /* Para que margin auto funcione correctamente */
+    display: block;
+    /* Centra la imagen horizontalmente */
+    margin: 5% auto;
+
 }
 
 #tarjetas-sintomas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding-bottom: 20px;
-}
-
-.boton-regresar {
-    display: flex;
-    justify-content: flex-start;
-    margin: 20px 15px 0 15px;
-    padding: 10px;
-
-    img {
-        width: 20px;
-        fill: $ColorOnSurface;
-    }
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-bottom: 2px solid $ColorOnSurface;
-    padding-bottom: 20px;
-}
-
-.indicaciones {
+    margin-bottom: 1%;
     background-color: red;
+    /* arriba | derecha | abajo | izquierda */
+    padding: 2%;
 }
