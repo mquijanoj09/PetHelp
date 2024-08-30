@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(45deg, #FFFFFF75 46%, #ff6a0075 46%, #FFBB9775 46%);
     /* 414px x 896px */
+    padding: 20px;
 }
 
 /* Headline */
@@ -69,4 +70,6 @@ p {
     background-color: red;
     /* arriba | derecha | abajo | izquierda */
     padding: 2%;
+    border-radius: 10px;
+    margin-top: 15px;
 }

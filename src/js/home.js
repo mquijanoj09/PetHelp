@@ -21,7 +21,7 @@ window.onload = function () {
                 <h5 class="tag">${tipoMascotas[Key]["numero-soluciones"]} Soluciones rápidas</h5>
             </div>
             <div class="box-boton">
-                <a class="boton-c-emergencia" href="emergencias.html?tipo=${tipoMascotas[Key]["nombre"]}">Emergencias ${tipoMascotas[Key]["nombre"]}</a>
+                <a class="boton-c-emergencia" href="./emergencies.html?tipo=${tipoMascotas[Key]["nombre"]}">Emergencias ${tipoMascotas[Key]["nombre"]}</a>
             </div>
         </div>`;
 
@@ -58,4 +58,5 @@ window.onload = function () {
       consejosColumna2.appendChild(newCard);
     }
   }
+
 };
