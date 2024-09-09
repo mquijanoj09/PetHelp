@@ -60,11 +60,10 @@ section {
 }
 
 .personas-tarjetas {
-  background-color: $ColorTerceary;
+  border: 1px solid $ColorSurface ;
   color: $ColorSurface;
   padding: 5px;
   border-radius: 10px;
-  border: none;
   font-family: $font-family;
   font-size: 10px;
 }

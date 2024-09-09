@@ -25,7 +25,8 @@ header {
 }
 
 body {
-    background: linear-gradient(45deg, #FFFFFF75 46%, #ff6a0075 46%, #FFBB9775 46%);
+    background: rgb(194,225,255);
+    background: linear-gradient(169deg, rgba(194,225,255,1) 0%, rgba(210,218,245,1) 26%, rgba(223,247,242,0.47942927170868344) 49%, rgba(255,255,255,0) 100%) no-repeat;
     /* 414px x 896px */
     padding: 20px;
 }
@@ -87,9 +88,12 @@ p {
 
 #tarjetas-sintomas {
     margin-bottom: 1%;
-    background-color: red;
+    background-color: $ColorPrimary;
     /* arriba | derecha | abajo | izquierda */
     padding: 2%;
     border-radius: 10px;
     margin-top: 15px;
+}
+.indicaciones{
+    padding-bottom: 30px;
 }
