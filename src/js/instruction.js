@@ -8,4 +8,10 @@ window.onload = function(){
     volver.addEventListener("click", function() {
         window.location.href = './emergencies.html?tipo='+mascota
     })
+
+    const home = document.getElementById("home");
+
+    home.addEventListener("click", function() {
+        window.location.href = './home.html'
+    })
 }

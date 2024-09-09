@@ -172,9 +172,9 @@ function crearTarjetas() {
     section.appendChild(tarjeta);
   });
 
-  const iniciarSesion = document.getElementById("iniciarSesion");
+  const home = document.getElementById("home");
 
-  iniciarSesion.addEventListener("click", function() {
+  home.addEventListener("click", function() {
     window.location.href = './home.html'
   })
 

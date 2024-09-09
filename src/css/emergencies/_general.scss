@@ -7,6 +7,25 @@ body {
   position: relative;
   padding: 20px;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px 0 15px;
+  padding: 10px;
+
+  img {
+    width: 20px;
+  }
+
+  div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    img {
+      width: 30px;
+    }
+  }
+}
 
 section {
   margin: 0 20px;
@@ -31,17 +50,6 @@ section {
   padding-bottom: 20px;
 }
 
-.boton-regresar {
-  display: flex;
-  justify-content: flex-start;
-  margin: 20px 15px 0 15px;
-  padding: 10px;
-
-  img {
-    width: 20px;
-    fill: $ColorOnSurface;
-  }
-}
 
 .header {
   display: flex;

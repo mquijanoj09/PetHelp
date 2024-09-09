@@ -3,6 +3,26 @@
 * {
     box-sizing: border-box;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    img {
+        width: 20px;
+        height: fit-content;
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        img {
+            width: 30px;
+        }
+    }
+}
 
 body {
     background: linear-gradient(45deg, #FFFFFF75 46%, #ff6a0075 46%, #FFBB9775 46%);

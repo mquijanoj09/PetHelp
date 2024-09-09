@@ -66,4 +66,9 @@ window.onload = function () {
     window.location.href = './user.html'
   })
 
+  const home = document.getElementById("home");
+
+  home.addEventListener("click", function() {
+    window.location.href = './home.html'
+  })
 };
