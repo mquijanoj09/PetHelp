@@ -59,4 +59,11 @@ window.onload = function () {
     }
   }
 
+  // FUNCIONALIDAD BOTONES
+  const btnUser = document.getElementById("btn-usuario");
+
+  btnUser.addEventListener("click", function() {
+    window.location.href = './user.html'
+  })
+
 };

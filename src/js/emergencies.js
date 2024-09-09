@@ -158,14 +158,27 @@ function crearTarjetas() {
     });
     contenedor.appendChild(contenedorPersonas);
 
+
+
     const boton = document.createElement("button");
     boton.className = "boton-sintomas";
     boton.textContent = "Indicaciones";
+    boton.addEventListener("click", function () {
+      window.location.href = './instruction.html?emergencia='+item.titulo.replaceAll(' ','')+'&mascota='+getTipoMascota()
+    })
     contenedor.appendChild(boton);
 
     tarjeta.appendChild(contenedor);
     section.appendChild(tarjeta);
   });
+
+  const iniciarSesion = document.getElementById("iniciarSesion");
+
+  iniciarSesion.addEventListener("click", function() {
+    window.location.href = './home.html'
+  })
+
+
 }
 
 document.addEventListener("DOMContentLoaded", crearTarjetas);
