@@ -1,0 +1,43 @@
+@import "../style";
+
+.input-registro-correo {
+  width: min-content;
+  display: table-caption;
+  font-family: $font-family;
+  color: $ColorOnSurface;
+  font-size: 14px;
+  padding-left: 10px;
+
+  input {
+    font-family: $font-family;
+    color: $ColorSurface;
+    background: $ColorPrimary;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: -10px;
+    margin-top: 3px;
+    padding: 0 10px;
+  }
+}
+
+.input-registro-contraseña {
+  width: min-content;
+  display: table-caption;
+  font-family: $font-family;
+  color: $ColorOnSurface;
+  font-size: 14px;
+  padding-left: 10px;
+
+  input {
+    font-family: $font-family;
+    color: $ColorSurface;
+    background: $ColorPrimary;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: -10px;
+    margin-top: 3px;
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,82 @@
+@import "../style";
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px 0 15px;
+  padding: 10px;
+
+  img {
+    width: 20px;
+  }
+
+  div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    img {
+      width: 30px;
+    }
+  }
+}
+
+section {
+  margin: 0 20px;
+}
+
+#gradiente {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  img {
+    width: 100%;
+  }
+}
+
+#tarjetas-sintomas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 2px solid $ColorOnSurface;
+  padding-bottom: 20px;
+}
+
+.personas-tarjetas {
+  border: 1px solid $ColorSurface ;
+  color: $ColorSurface;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: $font-family;
+  font-size: 10px;
+}
+
+.contenedor-botones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+
+.contenedor-personas {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

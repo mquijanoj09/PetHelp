@@ -1,0 +1,50 @@
+@import "style";
+
+body {
+  position: relative;
+  background: $ColorPrimary;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+#img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+
+  img {
+    width: 276px;
+  }
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    height: 138px;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    color: $ColorSurface;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+  p {
+    color: $ColorSurface;
+  }
+}

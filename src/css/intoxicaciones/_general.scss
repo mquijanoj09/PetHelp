@@ -1,0 +1,99 @@
+@import "../style";
+
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    img {
+        width: 20px;
+        height: fit-content;
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        img {
+            width: 30px;
+        }
+    }
+}
+
+body {
+    background: rgb(194,225,255);
+    background: linear-gradient(169deg, rgba(194,225,255,1) 0%, rgba(210,218,245,1) 26%, rgba(223,247,242,0.47942927170868344) 49%, rgba(255,255,255,0) 100%) no-repeat;
+    /* 414px x 896px */
+    padding: 20px;
+}
+
+/* Headline */
+h1 {
+    font-weight: bold;
+    margin: 3% 0;
+    font-size: 32px;
+}
+
+/* Title */
+h2 {
+    margin: 3% 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+/* Subtitle */
+h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Body */
+p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    width: 370px;
+}
+
+
+#tarjetas-sintomas h1 {
+    color: white;
+}
+
+#tarjetas-sintomas h3 {
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#tarjetas-sintomas p {
+    color: white;
+    margin-bottom: 2%;
+}
+
+#tarjetas-sintomas img {
+    width: 30%;
+    height: 30%;
+    /* Para que margin auto funcione correctamente */
+    display: block;
+    /* Centra la imagen horizontalmente */
+    margin: 5% auto;
+
+}
+
+#tarjetas-sintomas {
+    margin-bottom: 1%;
+    background-color: $ColorPrimary;
+    /* arriba | derecha | abajo | izquierda */
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.indicaciones{
+    padding-bottom: 30px;
+}

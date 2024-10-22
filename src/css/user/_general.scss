@@ -1,0 +1,84 @@
+@import "../style";
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 15px 0 15px;
+  padding: 10px;
+
+  img {
+    width: 20px;
+    fill: $ColorOnSurface;
+  }
+}
+
+#user {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+.boton {
+  margin: 0 15px;
+  width: fit-content;
+}
+
+form {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .input-registro-correo {
+    width: auto;
+    display: inline-grid;
+  }
+
+  .opciones-mascota {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+
+    label {
+      font-family: $font-family;
+      font-size: 14px;
+    }
+  }
+
+  button {
+    width: fit-content;
+  }
+}
+
+
+#gradiente {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+
+  img {
+    width: 100%;
+  }
+}
